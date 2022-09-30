@@ -1,0 +1,4 @@
+Sample	Picard_mqc-generalstats-picard-FOLD_ENRICHMENT	Picard_mqc-generalstats-picard-PCT_TARGET_BASES_30X	Picard_mqc-generalstats-picard-PERCENT_DUPLICATION	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+HG002_son	6314.883662	0.980284	0.173527	14.591219428034634	48.0	110.0	0.0	786592.0
+HG003_father	6275.706612	0.976261	0.177945	14.491053746877085	47.0	111.0	0.0	787597.0
+HG004_mother	6313.105984	0.975462	0.174104	13.01944434121478	47.0	111.0	0.0	807721.0

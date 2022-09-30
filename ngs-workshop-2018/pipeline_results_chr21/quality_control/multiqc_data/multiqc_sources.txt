@@ -1,0 +1,16 @@
+Module	Section	Sample Name	Source
+GATK	base_recalibrator	HG003_father_pre_recalibration.grp	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG003_father_pre_recalibration.grp
+GATK	base_recalibrator	HG004_mother_post_recalibration.grp	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG004_mother_post_recalibration.grp
+GATK	base_recalibrator	HG003_father_post_recalibration.grp	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG003_father_post_recalibration.grp
+GATK	base_recalibrator	HG002_son_post_recalibration.grp	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG002_son_post_recalibration.grp
+GATK	base_recalibrator	HG004_mother_pre_recalibration.grp	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG004_mother_pre_recalibration.grp
+GATK	base_recalibrator	HG002_son_pre_recalibration.grp	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG002_son_pre_recalibration.grp
+Picard	HsMetrics	HG004_mother	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG004_mother_HsMetrics.txt
+Picard	HsMetrics	HG003_father	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG003_father_HsMetrics.txt
+Picard	HsMetrics	HG002_son	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG002_son_HsMetrics.txt
+Picard	DuplicationMetrics	HG004_mother	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG004_mother_duplicate_metrics.txt
+Picard	DuplicationMetrics	HG003_father	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG003_father_duplicate_metrics.txt
+Picard	DuplicationMetrics	HG002_son	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG002_son_duplicate_metrics.txt
+FastQC	all_sections	HG003_father	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG003_father_R1_001_fastqc.zip
+FastQC	all_sections	HG002_son	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG002_son_R2_001_fastqc.zip
+FastQC	all_sections	HG004_mother	/gpfs/gss1/work/sduvarcall/ngs-workshop-2018/pipeline_results_chr21/quality_control/HG004_mother_R1_001_fastqc.zip

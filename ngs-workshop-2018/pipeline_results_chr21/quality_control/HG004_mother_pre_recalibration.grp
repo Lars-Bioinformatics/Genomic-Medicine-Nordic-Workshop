@@ -1,0 +1,847 @@
+#:GATKReport.v1.1:5
+#:GATKTable:2:17:%s:%s:;
+#:GATKTable:Arguments:Recalibration argument collection values used in this run
+Argument                    Value                                                                   
+binary_tag_name             null                                                                    
+covariate                   ReadGroupCovariate,QualityScoreCovariate,ContextCovariate,CycleCovariate
+default_platform            null                                                                    
+deletions_default_quality   45                                                                      
+force_platform              null                                                                    
+indels_context_size         3                                                                       
+insertions_default_quality  45                                                                      
+low_quality_tail            2                                                                       
+maximum_cycle_value         500                                                                     
+mismatches_context_size     2                                                                       
+mismatches_default_quality  -1                                                                      
+no_standard_covs            false                                                                   
+quantizing_levels           16                                                                      
+recalibration_report        null                                                                    
+run_without_dbsnp           false                                                                   
+solid_nocall_strategy       THROW_EXCEPTION                                                         
+solid_recal_mode            SET_Q_ZERO                                                              
+
+#:GATKTable:3:94:%d:%d:%d:;
+#:GATKTable:Quantized:Quality quantization map
+QualityScore  Count     QuantizedScore
+           0         0              93
+           1         0              93
+           2         0              93
+           3         0              93
+           4         0              93
+           5         0              93
+           6         0              93
+           7         0              93
+           8         0              93
+           9         0              93
+          10         0              93
+          11    924935              11
+          12         0              93
+          13         0              93
+          14         0              93
+          15         0              93
+          16         0              93
+          17         0              93
+          18         0              93
+          19         0              93
+          20         0              93
+          21         0              93
+          22         0              93
+          23         0              93
+          24         0              93
+          25         0              93
+          26         0              93
+          27   2030226              27
+          28         0              93
+          29         0              93
+          30         0              93
+          31         0              93
+          32         0              93
+          33         0              93
+          34         0              93
+          35         0              93
+          36         0              93
+          37  56851682              37
+          38         0              93
+          39         0              93
+          40         0              93
+          41         0              93
+          42         0              93
+          43         0              93
+          44         0              93
+          45         0              93
+          46         0              93
+          47         0              93
+          48         0              93
+          49         0              93
+          50         0              93
+          51         0              93
+          52         0              93
+          53         0              93
+          54         0              93
+          55         0              93
+          56         0              93
+          57         0              93
+          58         0              93
+          59         0              93
+          60         0              93
+          61         0              93
+          62         0              93
+          63         0              93
+          64         0              93
+          65         0              93
+          66         0              93
+          67         0              93
+          68         0              93
+          69         0              93
+          70         0              93
+          71         0              93
+          72         0              93
+          73         0              93
+          74         0              93
+          75         0              93
+          76         0              93
+          77         0              93
+          78         0              93
+          79         0              93
+          80         0              93
+          81         0              93
+          82         0              93
+          83         0              93
+          84         0              93
+          85         0              85
+          86         0              86
+          87         0              87
+          88         0              88
+          89         0              89
+          90         0              90
+          91         0              91
+          92         0              92
+          93         0              93
+
+#:GATKTable:6:1:%s:%s:%.4f:%.4f:%d:%.2f:;
+#:GATKTable:RecalTable0:
+ReadGroup  EventType  EmpiricalQuality  EstimatedQReported  Observations  Errors  
+C2FAGACXX  M                   28.0000             28.1660      59806843  89373.00
+
+#:GATKTable:6:3:%s:%d:%s:%.4f:%d:%.2f:;
+#:GATKTable:RecalTable1:
+ReadGroup  QualityScore  EventType  EmpiricalQuality  Observations  Errors  
+C2FAGACXX            11  M                   11.0000        924935  73011.00
+C2FAGACXX            25  M                   27.0000       2030226   4256.00
+C2FAGACXX            37  M                   37.0000      56851682  12106.00
+
+#:GATKTable:8:711:%s:%d:%s:%s:%s:%.4f:%d:%.2f:;
+#:GATKTable:RecalTable2:
+ReadGroup  QualityScore  CovariateValue  CovariateName  EventType  EmpiricalQuality  Observations  Errors  
+C2FAGACXX            11  -1              Cycle          M                   12.0000          4639    287.00
+C2FAGACXX            11  -10             Cycle          M                   11.0000          3782    278.00
+C2FAGACXX            11  -100            Cycle          M                   11.0000          5968    498.00
+C2FAGACXX            11  -101            Cycle          M                   11.0000          6064    521.00
+C2FAGACXX            11  -102            Cycle          M                   10.0000          6415    611.00
+C2FAGACXX            11  -103            Cycle          M                   11.0000          6452    538.00
+C2FAGACXX            11  -104            Cycle          M                   11.0000          6405    534.00
+C2FAGACXX            11  -105            Cycle          M                   11.0000          6405    539.00
+C2FAGACXX            11  -106            Cycle          M                   12.0000          6137    426.00
+C2FAGACXX            11  -107            Cycle          M                   11.0000          6379    463.00
+C2FAGACXX            11  -108            Cycle          M                   11.0000          6123    474.00
+C2FAGACXX            11  -109            Cycle          M                   11.0000          5952    458.00
+C2FAGACXX            11  -11             Cycle          M                   11.0000          3872    282.00
+C2FAGACXX            11  -110            Cycle          M                   11.0000         10293    844.00
+C2FAGACXX            11  -12             Cycle          M                   11.0000          3756    277.00
+C2FAGACXX            11  -13             Cycle          M                   11.0000          3794    286.00
+C2FAGACXX            11  -14             Cycle          M                   11.0000          4035    313.00
+C2FAGACXX            11  -15             Cycle          M                   11.0000          3899    330.00
+C2FAGACXX            11  -16             Cycle          M                   11.0000          3825    321.00
+C2FAGACXX            11  -17             Cycle          M                   11.0000          3832    310.00
+C2FAGACXX            11  -18             Cycle          M                   11.0000          3956    312.00
+C2FAGACXX            11  -19             Cycle          M                   11.0000          3872    302.00
+C2FAGACXX            11  -2              Cycle          M                   12.0000          5256    275.00
+C2FAGACXX            11  -20             Cycle          M                   11.0000          3908    339.00
+C2FAGACXX            11  -21             Cycle          M                   11.0000          3832    319.00
+C2FAGACXX            11  -22             Cycle          M                   11.0000          4044    331.00
+C2FAGACXX            11  -23             Cycle          M                   10.0000          4074    387.00
+C2FAGACXX            11  -24             Cycle          M                   11.0000          3943    355.00
+C2FAGACXX            11  -25             Cycle          M                   11.0000          4133    340.00
+C2FAGACXX            11  -26             Cycle          M                   11.0000          4137    369.00
+C2FAGACXX            11  -27             Cycle          M                   10.0000          4081    374.00
+C2FAGACXX            11  -28             Cycle          M                   10.0000          4203    385.00
+C2FAGACXX            11  -29             Cycle          M                   11.0000          4189    344.00
+C2FAGACXX            11  -3              Cycle          M                   12.0000          4605    242.00
+C2FAGACXX            11  -30             Cycle          M                   11.0000          4242    372.00
+C2FAGACXX            11  -31             Cycle          M                   11.0000          4352    382.00
+C2FAGACXX            11  -32             Cycle          M                   11.0000          4202    356.00
+C2FAGACXX            11  -33             Cycle          M                   11.0000          4510    382.00
+C2FAGACXX            11  -34             Cycle          M                   11.0000          4350    389.00
+C2FAGACXX            11  -35             Cycle          M                   10.0000          4552    425.00
+C2FAGACXX            11  -36             Cycle          M                   11.0000          4409    392.00
+C2FAGACXX            11  -37             Cycle          M                   10.0000          4490    413.00
+C2FAGACXX            11  -38             Cycle          M                   11.0000          4879    415.00
+C2FAGACXX            11  -39             Cycle          M                   11.0000          4651    414.00
+C2FAGACXX            11  -4              Cycle          M                   13.0000          4261    211.00
+C2FAGACXX            11  -40             Cycle          M                   10.0000          4494    425.00
+C2FAGACXX            11  -41             Cycle          M                   11.0000          4578    412.00
+C2FAGACXX            11  -42             Cycle          M                   10.0000          4467    415.00
+C2FAGACXX            11  -43             Cycle          M                   11.0000          4699    408.00
+C2FAGACXX            11  -44             Cycle          M                   10.0000          4763    462.00
+C2FAGACXX            11  -45             Cycle          M                   10.0000          4754    433.00
+C2FAGACXX            11  -46             Cycle          M                   11.0000          4796    421.00
+C2FAGACXX            11  -47             Cycle          M                   11.0000          4811    415.00
+C2FAGACXX            11  -48             Cycle          M                   11.0000          4861    434.00
+C2FAGACXX            11  -49             Cycle          M                   11.0000          4737    411.00
+C2FAGACXX            11  -5              Cycle          M                   12.0000          4125    233.00
+C2FAGACXX            11  -50             Cycle          M                   11.0000          4795    416.00
+C2FAGACXX            11  -51             Cycle          M                   11.0000          5045    434.00
+C2FAGACXX            11  -52             Cycle          M                   11.0000          4967    448.00
+C2FAGACXX            11  -53             Cycle          M                   10.0000          5080    488.00
+C2FAGACXX            11  -54             Cycle          M                   11.0000          5086    410.00
+C2FAGACXX            11  -55             Cycle          M                   11.0000          5170    442.00
+C2FAGACXX            11  -56             Cycle          M                   10.0000          5063    474.00
+C2FAGACXX            11  -57             Cycle          M                   10.0000          5051    463.00
+C2FAGACXX            11  -58             Cycle          M                   10.0000          5142    494.00
+C2FAGACXX            11  -59             Cycle          M                   10.0000          5229    505.00
+C2FAGACXX            11  -6              Cycle          M                   11.0000          4295    309.00
+C2FAGACXX            11  -60             Cycle          M                   11.0000          5259    455.00
+C2FAGACXX            11  -61             Cycle          M                   10.0000          5085    487.00
+C2FAGACXX            11  -62             Cycle          M                   10.0000          5187    472.00
+C2FAGACXX            11  -63             Cycle          M                   10.0000          5142    471.00
+C2FAGACXX            11  -64             Cycle          M                   10.0000          5335    508.00
+C2FAGACXX            11  -65             Cycle          M                   11.0000          5112    455.00
+C2FAGACXX            11  -66             Cycle          M                   11.0000          5284    437.00
+C2FAGACXX            11  -67             Cycle          M                   11.0000          5245    467.00
+C2FAGACXX            11  -68             Cycle          M                   11.0000          5442    491.00
+C2FAGACXX            11  -69             Cycle          M                   11.0000          5306    453.00
+C2FAGACXX            11  -7              Cycle          M                   11.0000          4038    279.00
+C2FAGACXX            11  -70             Cycle          M                   11.0000          5516    499.00
+C2FAGACXX            11  -71             Cycle          M                   10.0000          5419    529.00
+C2FAGACXX            11  -72             Cycle          M                   11.0000          5413    477.00
+C2FAGACXX            11  -73             Cycle          M                   11.0000          5618    504.00
+C2FAGACXX            11  -74             Cycle          M                   10.0000          5832    564.00
+C2FAGACXX            11  -75             Cycle          M                   11.0000          5778    475.00
+C2FAGACXX            11  -76             Cycle          M                   11.0000          5560    475.00
+C2FAGACXX            11  -77             Cycle          M                   11.0000          5986    526.00
+C2FAGACXX            11  -78             Cycle          M                   11.0000          5554    479.00
+C2FAGACXX            11  -79             Cycle          M                   11.0000          5996    535.00
+C2FAGACXX            11  -8              Cycle          M                   12.0000          3903    263.00
+C2FAGACXX            11  -80             Cycle          M                   11.0000          6031    546.00
+C2FAGACXX            11  -81             Cycle          M                   11.0000          5902    492.00
+C2FAGACXX            11  -82             Cycle          M                   11.0000          5664    501.00
+C2FAGACXX            11  -83             Cycle          M                   11.0000          6321    548.00
+C2FAGACXX            11  -84             Cycle          M                   11.0000          5807    501.00
+C2FAGACXX            11  -85             Cycle          M                   10.0000          6114    573.00
+C2FAGACXX            11  -86             Cycle          M                   11.0000          6336    559.00
+C2FAGACXX            11  -87             Cycle          M                   11.0000          6033    520.00
+C2FAGACXX            11  -88             Cycle          M                   10.0000          5933    542.00
+C2FAGACXX            11  -89             Cycle          M                   11.0000          6353    545.00
+C2FAGACXX            11  -9              Cycle          M                   12.0000          3945    267.00
+C2FAGACXX            11  -90             Cycle          M                   11.0000          5975    538.00
+C2FAGACXX            11  -91             Cycle          M                   11.0000          6422    576.00
+C2FAGACXX            11  -92             Cycle          M                   11.0000          6141    537.00
+C2FAGACXX            11  -93             Cycle          M                   11.0000          5687    514.00
+C2FAGACXX            11  -94             Cycle          M                   11.0000          6073    549.00
+C2FAGACXX            11  -95             Cycle          M                   11.0000          5990    492.00
+C2FAGACXX            11  -96             Cycle          M                   11.0000          5938    481.00
+C2FAGACXX            11  -97             Cycle          M                   11.0000          6215    501.00
+C2FAGACXX            11  -98             Cycle          M                   11.0000          6164    501.00
+C2FAGACXX            11  -99             Cycle          M                   11.0000          6457    535.00
+C2FAGACXX            11  1               Cycle          M                   13.0000          2676    102.00
+C2FAGACXX            11  10              Cycle          M                   13.0000          2204     86.00
+C2FAGACXX            11  100             Cycle          M                   11.0000          4028    365.00
+C2FAGACXX            11  101             Cycle          M                   11.0000          3872    310.00
+C2FAGACXX            11  102             Cycle          M                   11.0000          3937    322.00
+C2FAGACXX            11  103             Cycle          M                   11.0000          3872    283.00
+C2FAGACXX            11  104             Cycle          M                   11.0000          3897    305.00
+C2FAGACXX            11  105             Cycle          M                   11.0000          4019    299.00
+C2FAGACXX            11  106             Cycle          M                   11.0000          3976    298.00
+C2FAGACXX            11  107             Cycle          M                   12.0000          3956    263.00
+C2FAGACXX            11  108             Cycle          M                   12.0000          3788    249.00
+C2FAGACXX            11  109             Cycle          M                   12.0000          3882    252.00
+C2FAGACXX            11  11              Cycle          M                   13.0000          2272     84.00
+C2FAGACXX            11  110             Cycle          M                   11.0000          3816    282.00
+C2FAGACXX            11  111             Cycle          M                   11.0000          6687    536.00
+C2FAGACXX            11  12              Cycle          M                   13.0000          2266     96.00
+C2FAGACXX            11  13              Cycle          M                   13.0000          2240     72.00
+C2FAGACXX            11  14              Cycle          M                   13.0000          2221     77.00
+C2FAGACXX            11  15              Cycle          M                   13.0000          2316     85.00
+C2FAGACXX            11  16              Cycle          M                   13.0000          2226     90.00
+C2FAGACXX            11  17              Cycle          M                   13.0000          2235     82.00
+C2FAGACXX            11  18              Cycle          M                   13.0000          2351     69.00
+C2FAGACXX            11  19              Cycle          M                   13.0000          2302     93.00
+C2FAGACXX            11  2               Cycle          M                   13.0000          2773    120.00
+C2FAGACXX            11  20              Cycle          M                   13.0000          2279     84.00
+C2FAGACXX            11  21              Cycle          M                   12.0000          2280    109.00
+C2FAGACXX            11  22              Cycle          M                   13.0000          2400     98.00
+C2FAGACXX            11  23              Cycle          M                   13.0000          2377     98.00
+C2FAGACXX            11  24              Cycle          M                   13.0000          2545    109.00
+C2FAGACXX            11  25              Cycle          M                   13.0000          2541    101.00
+C2FAGACXX            11  26              Cycle          M                   12.0000          2721    178.00
+C2FAGACXX            11  27              Cycle          M                   12.0000          2865    174.00
+C2FAGACXX            11  28              Cycle          M                   12.0000          2779    184.00
+C2FAGACXX            11  29              Cycle          M                   12.0000          2914    196.00
+C2FAGACXX            11  3               Cycle          M                   12.0000          2637    125.00
+C2FAGACXX            11  30              Cycle          M                   12.0000          2824    175.00
+C2FAGACXX            11  31              Cycle          M                   12.0000          2969    190.00
+C2FAGACXX            11  32              Cycle          M                   11.0000          2904    206.00
+C2FAGACXX            11  33              Cycle          M                   11.0000          2988    206.00
+C2FAGACXX            11  34              Cycle          M                   12.0000          2877    189.00
+C2FAGACXX            11  35              Cycle          M                   12.0000          2896    190.00
+C2FAGACXX            11  36              Cycle          M                   12.0000          2941    193.00
+C2FAGACXX            11  37              Cycle          M                   11.0000          2997    224.00
+C2FAGACXX            11  38              Cycle          M                   12.0000          3080    209.00
+C2FAGACXX            11  39              Cycle          M                   12.0000          2990    200.00
+C2FAGACXX            11  4               Cycle          M                   13.0000          2443    108.00
+C2FAGACXX            11  40              Cycle          M                   11.0000          3036    220.00
+C2FAGACXX            11  41              Cycle          M                   12.0000          3004    198.00
+C2FAGACXX            11  42              Cycle          M                   12.0000          3136    198.00
+C2FAGACXX            11  43              Cycle          M                   11.0000          3079    222.00
+C2FAGACXX            11  44              Cycle          M                   11.0000          3136    256.00
+C2FAGACXX            11  45              Cycle          M                   11.0000          3200    246.00
+C2FAGACXX            11  46              Cycle          M                   12.0000          3105    192.00
+C2FAGACXX            11  47              Cycle          M                   12.0000          3172    216.00
+C2FAGACXX            11  48              Cycle          M                   11.0000          3057    227.00
+C2FAGACXX            11  49              Cycle          M                   11.0000          3081    221.00
+C2FAGACXX            11  5               Cycle          M                   13.0000          2262     86.00
+C2FAGACXX            11  50              Cycle          M                   11.0000          3105    239.00
+C2FAGACXX            11  51              Cycle          M                   11.0000          3299    235.00
+C2FAGACXX            11  52              Cycle          M                   11.0000          3193    229.00
+C2FAGACXX            11  53              Cycle          M                   11.0000          3107    227.00
+C2FAGACXX            11  54              Cycle          M                   12.0000          3315    210.00
+C2FAGACXX            11  55              Cycle          M                   11.0000          3274    238.00
+C2FAGACXX            11  56              Cycle          M                   11.0000          3277    256.00
+C2FAGACXX            11  57              Cycle          M                   11.0000          3361    255.00
+C2FAGACXX            11  58              Cycle          M                   11.0000          3428    263.00
+C2FAGACXX            11  59              Cycle          M                   11.0000          3515    262.00
+C2FAGACXX            11  6               Cycle          M                   13.0000          2389    102.00
+C2FAGACXX            11  60              Cycle          M                   11.0000          3474    247.00
+C2FAGACXX            11  61              Cycle          M                   11.0000          3697    287.00
+C2FAGACXX            11  62              Cycle          M                   11.0000          3526    275.00
+C2FAGACXX            11  63              Cycle          M                   12.0000          3459    235.00
+C2FAGACXX            11  64              Cycle          M                   11.0000          3432    273.00
+C2FAGACXX            11  65              Cycle          M                   11.0000          3597    281.00
+C2FAGACXX            11  66              Cycle          M                   12.0000          3465    231.00
+C2FAGACXX            11  67              Cycle          M                   11.0000          3538    274.00
+C2FAGACXX            11  68              Cycle          M                   11.0000          3498    274.00
+C2FAGACXX            11  69              Cycle          M                   11.0000          3516    265.00
+C2FAGACXX            11  7               Cycle          M                   13.0000          2191     97.00
+C2FAGACXX            11  70              Cycle          M                   11.0000          3510    270.00
+C2FAGACXX            11  71              Cycle          M                   11.0000          3558    301.00
+C2FAGACXX            11  72              Cycle          M                   11.0000          3696    301.00
+C2FAGACXX            11  73              Cycle          M                   11.0000          3648    289.00
+C2FAGACXX            11  74              Cycle          M                   11.0000          3603    288.00
+C2FAGACXX            11  75              Cycle          M                   11.0000          3714    283.00
+C2FAGACXX            11  76              Cycle          M                   11.0000          3572    308.00
+C2FAGACXX            11  77              Cycle          M                   11.0000          3628    281.00
+C2FAGACXX            11  78              Cycle          M                   11.0000          3886    295.00
+C2FAGACXX            11  79              Cycle          M                   11.0000          3910    288.00
+C2FAGACXX            11  8               Cycle          M                   12.0000          2293    119.00
+C2FAGACXX            11  80              Cycle          M                   11.0000          3797    284.00
+C2FAGACXX            11  81              Cycle          M                   11.0000          3673    305.00
+C2FAGACXX            11  82              Cycle          M                   11.0000          3757    304.00
+C2FAGACXX            11  83              Cycle          M                   11.0000          3699    295.00
+C2FAGACXX            11  84              Cycle          M                   10.0000          3845    375.00
+C2FAGACXX            11  85              Cycle          M                   11.0000          3776    298.00
+C2FAGACXX            11  86              Cycle          M                   11.0000          3658    291.00
+C2FAGACXX            11  87              Cycle          M                   11.0000          3735    297.00
+C2FAGACXX            11  88              Cycle          M                   11.0000          3735    297.00
+C2FAGACXX            11  89              Cycle          M                   12.0000          3771    255.00
+C2FAGACXX            11  9               Cycle          M                   13.0000          2170     93.00
+C2FAGACXX            11  90              Cycle          M                   11.0000          3807    305.00
+C2FAGACXX            11  91              Cycle          M                   11.0000          3731    312.00
+C2FAGACXX            11  92              Cycle          M                   11.0000          3799    309.00
+C2FAGACXX            11  93              Cycle          M                   11.0000          3791    289.00
+C2FAGACXX            11  94              Cycle          M                   11.0000          3869    331.00
+C2FAGACXX            11  95              Cycle          M                   11.0000          3888    307.00
+C2FAGACXX            11  96              Cycle          M                   11.0000          3960    302.00
+C2FAGACXX            11  97              Cycle          M                   11.0000          3923    305.00
+C2FAGACXX            11  98              Cycle          M                   11.0000          3871    317.00
+C2FAGACXX            11  99              Cycle          M                   11.0000          4002    328.00
+C2FAGACXX            11  AA              Context        M                   10.0000         80047   7900.00
+C2FAGACXX            11  AC              Context        M                   11.0000         28575   2460.00
+C2FAGACXX            11  AG              Context        M                   15.0000         83591   2882.00
+C2FAGACXX            11  AT              Context        M                   10.0000         82015   7551.00
+C2FAGACXX            11  CA              Context        M                    8.0000         59921  10396.00
+C2FAGACXX            11  CC              Context        M                   13.0000         38099   2020.00
+C2FAGACXX            11  CG              Context        M                    8.0000         21315   3805.00
+C2FAGACXX            11  CT              Context        M                   16.0000         94662   2146.00
+C2FAGACXX            11  GA              Context        M                    8.0000         49029   7471.00
+C2FAGACXX            11  GC              Context        M                   14.0000         32084   1098.00
+C2FAGACXX            11  GG              Context        M                   13.0000         60671   3061.00
+C2FAGACXX            11  GT              Context        M                   12.0000         76976   5063.00
+C2FAGACXX            11  TA              Context        M                    5.0000         30354   8771.00
+C2FAGACXX            11  TC              Context        M                   13.0000         30626   1458.00
+C2FAGACXX            11  TG              Context        M                   14.0000         62773   2526.00
+C2FAGACXX            11  TT              Context        M                   13.0000         86851   4014.00
+C2FAGACXX            25  -1              Cycle          M                   26.0000         12522     13.00
+C2FAGACXX            25  -10             Cycle          M                   26.0000          8737     14.00
+C2FAGACXX            25  -100            Cycle          M                   25.0000         12835     39.00
+C2FAGACXX            25  -101            Cycle          M                   26.0000         12715     24.00
+C2FAGACXX            25  -102            Cycle          M                   26.0000         13056     25.00
+C2FAGACXX            25  -103            Cycle          M                   25.0000         13298     35.00
+C2FAGACXX            25  -104            Cycle          M                   26.0000         12887     26.00
+C2FAGACXX            25  -105            Cycle          M                   25.0000         13252     33.00
+C2FAGACXX            25  -106            Cycle          M                   26.0000         12893     22.00
+C2FAGACXX            25  -107            Cycle          M                   25.0000         13166     33.00
+C2FAGACXX            25  -108            Cycle          M                   26.0000         12702     25.00
+C2FAGACXX            25  -109            Cycle          M                   25.0000         12482     32.00
+C2FAGACXX            25  -11             Cycle          M                   26.0000          8882     15.00
+C2FAGACXX            25  -110            Cycle          M                   25.0000         19733     48.00
+C2FAGACXX            25  -12             Cycle          M                   25.0000          8995     19.00
+C2FAGACXX            25  -13             Cycle          M                   25.0000          9014     18.00
+C2FAGACXX            25  -14             Cycle          M                   25.0000          8959     19.00
+C2FAGACXX            25  -15             Cycle          M                   25.0000          8934     18.00
+C2FAGACXX            25  -16             Cycle          M                   25.0000          8967     22.00
+C2FAGACXX            25  -17             Cycle          M                   25.0000          8937     29.00
+C2FAGACXX            25  -18             Cycle          M                   25.0000          8876     20.00
+C2FAGACXX            25  -19             Cycle          M                   25.0000          8998     21.00
+C2FAGACXX            25  -2              Cycle          M                   26.0000         12800      9.00
+C2FAGACXX            25  -20             Cycle          M                   25.0000          8942     25.00
+C2FAGACXX            25  -21             Cycle          M                   25.0000          8972     22.00
+C2FAGACXX            25  -22             Cycle          M                   26.0000          9136      8.00
+C2FAGACXX            25  -23             Cycle          M                   25.0000          9202     17.00
+C2FAGACXX            25  -24             Cycle          M                   25.0000          9374     30.00
+C2FAGACXX            25  -25             Cycle          M                   25.0000          9352     29.00
+C2FAGACXX            25  -26             Cycle          M                   25.0000          9428     17.00
+C2FAGACXX            25  -27             Cycle          M                   26.0000          9538     16.00
+C2FAGACXX            25  -28             Cycle          M                   25.0000          9533     25.00
+C2FAGACXX            25  -29             Cycle          M                   26.0000          9627     15.00
+C2FAGACXX            25  -3              Cycle          M                   26.0000         10737     10.00
+C2FAGACXX            25  -30             Cycle          M                   25.0000          9586     24.00
+C2FAGACXX            25  -31             Cycle          M                   25.0000          9743     18.00
+C2FAGACXX            25  -32             Cycle          M                   25.0000          9881     24.00
+C2FAGACXX            25  -33             Cycle          M                   26.0000          9900     17.00
+C2FAGACXX            25  -34             Cycle          M                   25.0000          9976     26.00
+C2FAGACXX            25  -35             Cycle          M                   26.0000          9860     15.00
+C2FAGACXX            25  -36             Cycle          M                   25.0000          9992     26.00
+C2FAGACXX            25  -37             Cycle          M                   25.0000          9969     27.00
+C2FAGACXX            25  -38             Cycle          M                   25.0000         10725     36.00
+C2FAGACXX            25  -39             Cycle          M                   25.0000         10179     31.00
+C2FAGACXX            25  -4              Cycle          M                   26.0000         10126      9.00
+C2FAGACXX            25  -40             Cycle          M                   25.0000         10187     20.00
+C2FAGACXX            25  -41             Cycle          M                   25.0000         10407     24.00
+C2FAGACXX            25  -42             Cycle          M                   26.0000         10156     16.00
+C2FAGACXX            25  -43             Cycle          M                   25.0000         10276     23.00
+C2FAGACXX            25  -44             Cycle          M                   25.0000         10411     28.00
+C2FAGACXX            25  -45             Cycle          M                   25.0000         10515     21.00
+C2FAGACXX            25  -46             Cycle          M                   25.0000         10678     21.00
+C2FAGACXX            25  -47             Cycle          M                   25.0000         10621     29.00
+C2FAGACXX            25  -48             Cycle          M                   25.0000         10637     27.00
+C2FAGACXX            25  -49             Cycle          M                   25.0000         10673     30.00
+C2FAGACXX            25  -5              Cycle          M                   26.0000          9734     15.00
+C2FAGACXX            25  -50             Cycle          M                   25.0000         10904     34.00
+C2FAGACXX            25  -51             Cycle          M                   25.0000         10847     38.00
+C2FAGACXX            25  -52             Cycle          M                   25.0000         10981     23.00
+C2FAGACXX            25  -53             Cycle          M                   25.0000         11265     24.00
+C2FAGACXX            25  -54             Cycle          M                   25.0000         11204     30.00
+C2FAGACXX            25  -55             Cycle          M                   25.0000         11486     28.00
+C2FAGACXX            25  -56             Cycle          M                   25.0000         10889     34.00
+C2FAGACXX            25  -57             Cycle          M                   25.0000         10969     25.00
+C2FAGACXX            25  -58             Cycle          M                   25.0000         11165     22.00
+C2FAGACXX            25  -59             Cycle          M                   25.0000         11377     28.00
+C2FAGACXX            25  -6              Cycle          M                   25.0000          9624     18.00
+C2FAGACXX            25  -60             Cycle          M                   26.0000         11075     18.00
+C2FAGACXX            25  -61             Cycle          M                   26.0000         11053     19.00
+C2FAGACXX            25  -62             Cycle          M                   25.0000         11190     27.00
+C2FAGACXX            25  -63             Cycle          M                   25.0000         11153     22.00
+C2FAGACXX            25  -64             Cycle          M                   25.0000         11484     36.00
+C2FAGACXX            25  -65             Cycle          M                   25.0000         11091     35.00
+C2FAGACXX            25  -66             Cycle          M                   25.0000         11630     42.00
+C2FAGACXX            25  -67             Cycle          M                   25.0000         11325     30.00
+C2FAGACXX            25  -68             Cycle          M                   25.0000         11708     31.00
+C2FAGACXX            25  -69             Cycle          M                   25.0000         11329     26.00
+C2FAGACXX            25  -7              Cycle          M                   26.0000          9401     10.00
+C2FAGACXX            25  -70             Cycle          M                   25.0000         11712     36.00
+C2FAGACXX            25  -71             Cycle          M                   25.0000         11638     41.00
+C2FAGACXX            25  -72             Cycle          M                   25.0000         11869     33.00
+C2FAGACXX            25  -73             Cycle          M                   25.0000         12041     31.00
+C2FAGACXX            25  -74             Cycle          M                   25.0000         12144     32.00
+C2FAGACXX            25  -75             Cycle          M                   25.0000         12195     37.00
+C2FAGACXX            25  -76             Cycle          M                   25.0000         11909     27.00
+C2FAGACXX            25  -77             Cycle          M                   25.0000         12559     37.00
+C2FAGACXX            25  -78             Cycle          M                   26.0000         11910     23.00
+C2FAGACXX            25  -79             Cycle          M                   26.0000         12344     21.00
+C2FAGACXX            25  -8              Cycle          M                   25.0000          9088     23.00
+C2FAGACXX            25  -80             Cycle          M                   25.0000         12407     36.00
+C2FAGACXX            25  -81             Cycle          M                   25.0000         12207     27.00
+C2FAGACXX            25  -82             Cycle          M                   25.0000         12198     28.00
+C2FAGACXX            25  -83             Cycle          M                   25.0000         12591     32.00
+C2FAGACXX            25  -84             Cycle          M                   25.0000         12058     35.00
+C2FAGACXX            25  -85             Cycle          M                   25.0000         12516     28.00
+C2FAGACXX            25  -86             Cycle          M                   25.0000         12922     31.00
+C2FAGACXX            25  -87             Cycle          M                   25.0000         12644     43.00
+C2FAGACXX            25  -88             Cycle          M                   25.0000         12271     37.00
+C2FAGACXX            25  -89             Cycle          M                   25.0000         12762     44.00
+C2FAGACXX            25  -9              Cycle          M                   25.0000          9098     25.00
+C2FAGACXX            25  -90             Cycle          M                   25.0000         12624     33.00
+C2FAGACXX            25  -91             Cycle          M                   25.0000         13189     37.00
+C2FAGACXX            25  -92             Cycle          M                   25.0000         12644     31.00
+C2FAGACXX            25  -93             Cycle          M                   25.0000         12477     28.00
+C2FAGACXX            25  -94             Cycle          M                   25.0000         12409     26.00
+C2FAGACXX            25  -95             Cycle          M                   25.0000         12517     36.00
+C2FAGACXX            25  -96             Cycle          M                   25.0000         12517     38.00
+C2FAGACXX            25  -97             Cycle          M                   25.0000         13006     41.00
+C2FAGACXX            25  -98             Cycle          M                   25.0000         13019     33.00
+C2FAGACXX            25  -99             Cycle          M                   26.0000         13019     25.00
+C2FAGACXX            25  1               Cycle          M                   26.0000          5611      5.00
+C2FAGACXX            25  10              Cycle          M                   25.0000          5713      7.00
+C2FAGACXX            25  100             Cycle          M                   26.0000          8380     11.00
+C2FAGACXX            25  101             Cycle          M                   25.0000          8297     19.00
+C2FAGACXX            25  102             Cycle          M                   25.0000          8118     15.00
+C2FAGACXX            25  103             Cycle          M                   25.0000          8046     15.00
+C2FAGACXX            25  104             Cycle          M                   25.0000          8355     14.00
+C2FAGACXX            25  105             Cycle          M                   26.0000          8515      9.00
+C2FAGACXX            25  106             Cycle          M                   25.0000          8397     20.00
+C2FAGACXX            25  107             Cycle          M                   25.0000          8306     16.00
+C2FAGACXX            25  108             Cycle          M                   26.0000          8338      7.00
+C2FAGACXX            25  109             Cycle          M                   26.0000          8418     10.00
+C2FAGACXX            25  11              Cycle          M                   26.0000          5751      1.00
+C2FAGACXX            25  110             Cycle          M                   25.0000          8588     21.00
+C2FAGACXX            25  111             Cycle          M                   26.0000         14392     28.00
+C2FAGACXX            25  12              Cycle          M                   26.0000          5842      4.00
+C2FAGACXX            25  13              Cycle          M                   25.0000          6026      9.00
+C2FAGACXX            25  14              Cycle          M                   26.0000          6022      7.00
+C2FAGACXX            25  15              Cycle          M                   25.0000          6003     10.00
+C2FAGACXX            25  16              Cycle          M                   25.0000          5966     10.00
+C2FAGACXX            25  17              Cycle          M                   26.0000          5974      4.00
+C2FAGACXX            25  18              Cycle          M                   26.0000          6049      4.00
+C2FAGACXX            25  19              Cycle          M                   25.0000          6141      8.00
+C2FAGACXX            25  2               Cycle          M                   26.0000          6357      8.00
+C2FAGACXX            25  20              Cycle          M                   26.0000          6180      5.00
+C2FAGACXX            25  21              Cycle          M                   25.0000          6070      9.00
+C2FAGACXX            25  22              Cycle          M                   26.0000          6112      6.00
+C2FAGACXX            25  23              Cycle          M                   26.0000          6367      6.00
+C2FAGACXX            25  24              Cycle          M                   25.0000          6461     11.00
+C2FAGACXX            25  25              Cycle          M                   25.0000          6409     11.00
+C2FAGACXX            25  26              Cycle          M                   25.0000          6388      9.00
+C2FAGACXX            25  27              Cycle          M                   25.0000          6428     10.00
+C2FAGACXX            25  28              Cycle          M                   25.0000          6353      9.00
+C2FAGACXX            25  29              Cycle          M                   25.0000          6649     10.00
+C2FAGACXX            25  3               Cycle          M                   25.0000          5877      7.00
+C2FAGACXX            25  30              Cycle          M                   25.0000          6606     10.00
+C2FAGACXX            25  31              Cycle          M                   25.0000          6750     10.00
+C2FAGACXX            25  32              Cycle          M                   25.0000          6504     13.00
+C2FAGACXX            25  33              Cycle          M                   26.0000          6673      7.00
+C2FAGACXX            25  34              Cycle          M                   25.0000          6614     12.00
+C2FAGACXX            25  35              Cycle          M                   26.0000          6913      6.00
+C2FAGACXX            25  36              Cycle          M                   26.0000          6695      9.00
+C2FAGACXX            25  37              Cycle          M                   26.0000          6762      6.00
+C2FAGACXX            25  38              Cycle          M                   26.0000          6652      7.00
+C2FAGACXX            25  39              Cycle          M                   25.0000          6609     13.00
+C2FAGACXX            25  4               Cycle          M                   26.0000          5997      4.00
+C2FAGACXX            25  40              Cycle          M                   25.0000          6627     10.00
+C2FAGACXX            25  41              Cycle          M                   25.0000          6743     12.00
+C2FAGACXX            25  42              Cycle          M                   25.0000          6714     14.00
+C2FAGACXX            25  43              Cycle          M                   25.0000          6937     15.00
+C2FAGACXX            25  44              Cycle          M                   26.0000          6683      8.00
+C2FAGACXX            25  45              Cycle          M                   25.0000          7116     15.00
+C2FAGACXX            25  46              Cycle          M                   25.0000          6788     12.00
+C2FAGACXX            25  47              Cycle          M                   25.0000          7017     13.00
+C2FAGACXX            25  48              Cycle          M                   25.0000          6924     15.00
+C2FAGACXX            25  49              Cycle          M                   26.0000          6944      8.00
+C2FAGACXX            25  5               Cycle          M                   25.0000          5610     10.00
+C2FAGACXX            25  50              Cycle          M                   25.0000          6864     11.00
+C2FAGACXX            25  51              Cycle          M                   25.0000          7281     13.00
+C2FAGACXX            25  52              Cycle          M                   26.0000          7148     10.00
+C2FAGACXX            25  53              Cycle          M                   26.0000          7064      8.00
+C2FAGACXX            25  54              Cycle          M                   26.0000          7311      7.00
+C2FAGACXX            25  55              Cycle          M                   25.0000          7287     12.00
+C2FAGACXX            25  56              Cycle          M                   25.0000          7165     12.00
+C2FAGACXX            25  57              Cycle          M                   25.0000          7185     18.00
+C2FAGACXX            25  58              Cycle          M                   25.0000          7146     12.00
+C2FAGACXX            25  59              Cycle          M                   25.0000          7402     15.00
+C2FAGACXX            25  6               Cycle          M                   25.0000          5721     10.00
+C2FAGACXX            25  60              Cycle          M                   25.0000          7509     13.00
+C2FAGACXX            25  61              Cycle          M                   25.0000          7641     15.00
+C2FAGACXX            25  62              Cycle          M                   25.0000          7561     12.00
+C2FAGACXX            25  63              Cycle          M                   25.0000          7421     16.00
+C2FAGACXX            25  64              Cycle          M                   25.0000          7400     22.00
+C2FAGACXX            25  65              Cycle          M                   26.0000          7651     11.00
+C2FAGACXX            25  66              Cycle          M                   25.0000          7452     17.00
+C2FAGACXX            25  67              Cycle          M                   25.0000          7487     12.00
+C2FAGACXX            25  68              Cycle          M                   26.0000          7634     11.00
+C2FAGACXX            25  69              Cycle          M                   26.0000          7524     10.00
+C2FAGACXX            25  7               Cycle          M                   25.0000          5753      7.00
+C2FAGACXX            25  70              Cycle          M                   26.0000          7624      9.00
+C2FAGACXX            25  71              Cycle          M                   26.0000          7728     12.00
+C2FAGACXX            25  72              Cycle          M                   25.0000          7845     13.00
+C2FAGACXX            25  73              Cycle          M                   25.0000          7958     25.00
+C2FAGACXX            25  74              Cycle          M                   25.0000          7671     14.00
+C2FAGACXX            25  75              Cycle          M                   25.0000          7695     21.00
+C2FAGACXX            25  76              Cycle          M                   25.0000          7765     13.00
+C2FAGACXX            25  77              Cycle          M                   26.0000          7834     12.00
+C2FAGACXX            25  78              Cycle          M                   26.0000          8359     12.00
+C2FAGACXX            25  79              Cycle          M                   25.0000          8251     16.00
+C2FAGACXX            25  8               Cycle          M                   25.0000          5774      9.00
+C2FAGACXX            25  80              Cycle          M                   25.0000          8006     17.00
+C2FAGACXX            25  81              Cycle          M                   25.0000          8017     13.00
+C2FAGACXX            25  82              Cycle          M                   25.0000          8022     18.00
+C2FAGACXX            25  83              Cycle          M                   25.0000          7955     18.00
+C2FAGACXX            25  84              Cycle          M                   24.0000          7848     46.00
+C2FAGACXX            25  85              Cycle          M                   26.0000          7986      8.00
+C2FAGACXX            25  86              Cycle          M                   26.0000          7897     11.00
+C2FAGACXX            25  87              Cycle          M                   25.0000          8097     14.00
+C2FAGACXX            25  88              Cycle          M                   26.0000          8197     13.00
+C2FAGACXX            25  89              Cycle          M                   26.0000          8190     10.00
+C2FAGACXX            25  9               Cycle          M                   25.0000          5689      7.00
+C2FAGACXX            25  90              Cycle          M                   25.0000          8023     16.00
+C2FAGACXX            25  91              Cycle          M                   25.0000          8005     15.00
+C2FAGACXX            25  92              Cycle          M                   26.0000          8147     12.00
+C2FAGACXX            25  93              Cycle          M                   26.0000          8115     11.00
+C2FAGACXX            25  94              Cycle          M                   25.0000          8235     17.00
+C2FAGACXX            25  95              Cycle          M                   25.0000          8329     18.00
+C2FAGACXX            25  96              Cycle          M                   25.0000          8172     19.00
+C2FAGACXX            25  97              Cycle          M                   26.0000          8176      7.00
+C2FAGACXX            25  98              Cycle          M                   25.0000          8384     20.00
+C2FAGACXX            25  99              Cycle          M                   25.0000          8481     17.00
+C2FAGACXX            25  AA              Context        M                   26.0000        212894    528.00
+C2FAGACXX            25  AC              Context        M                   26.0000         60077    120.00
+C2FAGACXX            25  AG              Context        M                   29.0000        159904    132.00
+C2FAGACXX            25  AT              Context        M                   26.0000        154234    348.00
+C2FAGACXX            25  CA              Context        M                   24.0000        156318    717.00
+C2FAGACXX            25  CC              Context        M                   26.0000         86749    171.00
+C2FAGACXX            25  CG              Context        M                   24.0000         35764    149.00
+C2FAGACXX            25  CT              Context        M                   30.0000        198715    131.00
+C2FAGACXX            25  GA              Context        M                   25.0000        152262    481.00
+C2FAGACXX            25  GC              Context        M                   28.0000         74320     71.00
+C2FAGACXX            25  GG              Context        M                   27.0000        119895    180.00
+C2FAGACXX            25  GT              Context        M                   27.0000        150205    260.00
+C2FAGACXX            25  TA              Context        M                   22.0000         72728    548.00
+C2FAGACXX            25  TC              Context        M                   27.0000         67788    109.00
+C2FAGACXX            25  TG              Context        M                   29.0000        124286    108.00
+C2FAGACXX            25  TT              Context        M                   29.0000        185914    185.00
+C2FAGACXX            37  -1              Cycle          M                   35.0000        254208    115.00
+C2FAGACXX            37  -10             Cycle          M                   36.0000        260552     68.00
+C2FAGACXX            37  -100            Cycle          M                   37.0000        237886     46.00
+C2FAGACXX            37  -101            Cycle          M                   37.0000        237388     48.00
+C2FAGACXX            37  -102            Cycle          M                   37.0000        235830     59.00
+C2FAGACXX            37  -103            Cycle          M                   37.0000        234902     59.00
+C2FAGACXX            37  -104            Cycle          M                   37.0000        234425     47.00
+C2FAGACXX            37  -105            Cycle          M                   37.0000        233138     58.00
+C2FAGACXX            37  -106            Cycle          M                   37.0000        232763     43.00
+C2FAGACXX            37  -107            Cycle          M                   37.0000        231803     40.00
+C2FAGACXX            37  -108            Cycle          M                   37.0000        231442     42.00
+C2FAGACXX            37  -109            Cycle          M                   37.0000        230947     40.00
+C2FAGACXX            37  -11             Cycle          M                   36.0000        260500     70.00
+C2FAGACXX            37  -110            Cycle          M                   37.0000        218661     47.00
+C2FAGACXX            37  -12             Cycle          M                   37.0000        260464     61.00
+C2FAGACXX            37  -13             Cycle          M                   37.0000        260538     64.00
+C2FAGACXX            37  -14             Cycle          M                   37.0000        260406     57.00
+C2FAGACXX            37  -15             Cycle          M                   37.0000        260484     55.00
+C2FAGACXX            37  -16             Cycle          M                   36.0000        260421     76.00
+C2FAGACXX            37  -17             Cycle          M                   37.0000        260637     64.00
+C2FAGACXX            37  -18             Cycle          M                   37.0000        260347     55.00
+C2FAGACXX            37  -19             Cycle          M                   37.0000        260317     52.00
+C2FAGACXX            37  -2              Cycle          M                   36.0000        256261     94.00
+C2FAGACXX            37  -20             Cycle          M                   37.0000        260636     62.00
+C2FAGACXX            37  -21             Cycle          M                   37.0000        260273     45.00
+C2FAGACXX            37  -22             Cycle          M                   37.0000        259832     53.00
+C2FAGACXX            37  -23             Cycle          M                   37.0000        259820     62.00
+C2FAGACXX            37  -24             Cycle          M                   37.0000        259908     50.00
+C2FAGACXX            37  -25             Cycle          M                   37.0000        259451     59.00
+C2FAGACXX            37  -26             Cycle          M                   37.0000        259447     56.00
+C2FAGACXX            37  -27             Cycle          M                   37.0000        259261     51.00
+C2FAGACXX            37  -28             Cycle          M                   37.0000        259224     54.00
+C2FAGACXX            37  -29             Cycle          M                   37.0000        259163     61.00
+C2FAGACXX            37  -3              Cycle          M                   36.0000        259122     79.00
+C2FAGACXX            37  -30             Cycle          M                   37.0000        258991     51.00
+C2FAGACXX            37  -31             Cycle          M                   37.0000        258524     52.00
+C2FAGACXX            37  -32             Cycle          M                   37.0000        258866     45.00
+C2FAGACXX            37  -33             Cycle          M                   37.0000        258134     47.00
+C2FAGACXX            37  -34             Cycle          M                   37.0000        258411     38.00
+C2FAGACXX            37  -35             Cycle          M                   37.0000        258169     64.00
+C2FAGACXX            37  -36             Cycle          M                   37.0000        258258     62.00
+C2FAGACXX            37  -37             Cycle          M                   37.0000        258209     50.00
+C2FAGACXX            37  -38             Cycle          M                   37.0000        256940     50.00
+C2FAGACXX            37  -39             Cycle          M                   37.0000        257709     58.00
+C2FAGACXX            37  -4              Cycle          M                   35.0000        259394    113.00
+C2FAGACXX            37  -40             Cycle          M                   36.0000        257893     72.00
+C2FAGACXX            37  -41             Cycle          M                   37.0000        257422     53.00
+C2FAGACXX            37  -42             Cycle          M                   37.0000        257763     54.00
+C2FAGACXX            37  -43             Cycle          M                   36.0000        257322     71.00
+C2FAGACXX            37  -44             Cycle          M                   37.0000        257112     54.00
+C2FAGACXX            37  -45             Cycle          M                   37.0000        256847     56.00
+C2FAGACXX            37  -46             Cycle          M                   37.0000        256612     43.00
+C2FAGACXX            37  -47             Cycle          M                   37.0000        256426     45.00
+C2FAGACXX            37  -48             Cycle          M                   37.0000        256466     49.00
+C2FAGACXX            37  -49             Cycle          M                   37.0000        256077     55.00
+C2FAGACXX            37  -5              Cycle          M                   36.0000        259912     82.00
+C2FAGACXX            37  -50             Cycle          M                   37.0000        255998     54.00
+C2FAGACXX            37  -51             Cycle          M                   37.0000        255799     52.00
+C2FAGACXX            37  -52             Cycle          M                   37.0000        255499     56.00
+C2FAGACXX            37  -53             Cycle          M                   37.0000        255227     55.00
+C2FAGACXX            37  -54             Cycle          M                   37.0000        255135     57.00
+C2FAGACXX            37  -55             Cycle          M                   37.0000        254412     50.00
+C2FAGACXX            37  -56             Cycle          M                   37.0000        255357     60.00
+C2FAGACXX            37  -57             Cycle          M                   37.0000        255147     52.00
+C2FAGACXX            37  -58             Cycle          M                   36.0000        254630     66.00
+C2FAGACXX            37  -59             Cycle          M                   37.0000        254364     56.00
+C2FAGACXX            37  -6              Cycle          M                   36.0000        259673     81.00
+C2FAGACXX            37  -60             Cycle          M                   37.0000        254476     47.00
+C2FAGACXX            37  -61             Cycle          M                   37.0000        254401     38.00
+C2FAGACXX            37  -62             Cycle          M                   37.0000        254310     56.00
+C2FAGACXX            37  -63             Cycle          M                   37.0000        253904     46.00
+C2FAGACXX            37  -64             Cycle          M                   37.0000        253284     45.00
+C2FAGACXX            37  -65             Cycle          M                   37.0000        254220     51.00
+C2FAGACXX            37  -66             Cycle          M                   37.0000        253043     54.00
+C2FAGACXX            37  -67             Cycle          M                   37.0000        253287     48.00
+C2FAGACXX            37  -68             Cycle          M                   37.0000        252631     50.00
+C2FAGACXX            37  -69             Cycle          M                   37.0000        252986     48.00
+C2FAGACXX            37  -7              Cycle          M                   36.0000        260013     71.00
+C2FAGACXX            37  -70             Cycle          M                   37.0000        251987     57.00
+C2FAGACXX            37  -71             Cycle          M                   37.0000        252174     55.00
+C2FAGACXX            37  -72             Cycle          M                   37.0000        251768     59.00
+C2FAGACXX            37  -73             Cycle          M                   37.0000        250831     59.00
+C2FAGACXX            37  -74             Cycle          M                   37.0000        250365     58.00
+C2FAGACXX            37  -75             Cycle          M                   37.0000        250053     54.00
+C2FAGACXX            37  -76             Cycle          M                   37.0000        250307     58.00
+C2FAGACXX            37  -77             Cycle          M                   36.0000        249130     66.00
+C2FAGACXX            37  -78             Cycle          M                   37.0000        249517     46.00
+C2FAGACXX            37  -79             Cycle          M                   37.0000        248479     45.00
+C2FAGACXX            37  -8              Cycle          M                   36.0000        260569     72.00
+C2FAGACXX            37  -80             Cycle          M                   37.0000        248328     62.00
+C2FAGACXX            37  -81             Cycle          M                   37.0000        248277     59.00
+C2FAGACXX            37  -82             Cycle          M                   37.0000        248029     54.00
+C2FAGACXX            37  -83             Cycle          M                   37.0000        246741     48.00
+C2FAGACXX            37  -84             Cycle          M                   37.0000        247352     53.00
+C2FAGACXX            37  -85             Cycle          M                   37.0000        246368     55.00
+C2FAGACXX            37  -86             Cycle          M                   37.0000        245329     61.00
+C2FAGACXX            37  -87             Cycle          M                   37.0000        245529     50.00
+C2FAGACXX            37  -88             Cycle          M                   37.0000        245352     59.00
+C2FAGACXX            37  -89             Cycle          M                   37.0000        244160     61.00
+C2FAGACXX            37  -9              Cycle          M                   36.0000        260323     78.00
+C2FAGACXX            37  -90             Cycle          M                   37.0000        243968     51.00
+C2FAGACXX            37  -91             Cycle          M                   37.0000        242604     57.00
+C2FAGACXX            37  -92             Cycle          M                   37.0000        242848     58.00
+C2FAGACXX            37  -93             Cycle          M                   36.0000        243135     67.00
+C2FAGACXX            37  -94             Cycle          M                   37.0000        241901     57.00
+C2FAGACXX            37  -95             Cycle          M                   37.0000        241643     57.00
+C2FAGACXX            37  -96             Cycle          M                   36.0000        240884     67.00
+C2FAGACXX            37  -97             Cycle          M                   37.0000        239617     35.00
+C2FAGACXX            37  -98             Cycle          M                   37.0000        239043     44.00
+C2FAGACXX            37  -99             Cycle          M                   37.0000        238256     41.00
+C2FAGACXX            37  1               Cycle          M                   36.0000        268084     88.00
+C2FAGACXX            37  10              Cycle          M                   36.0000        270062     71.00
+C2FAGACXX            37  100             Cycle          M                   37.0000        249976     48.00
+C2FAGACXX            37  101             Cycle          M                   37.0000        249481     38.00
+C2FAGACXX            37  102             Cycle          M                   37.0000        248838     44.00
+C2FAGACXX            37  103             Cycle          M                   37.0000        248044     44.00
+C2FAGACXX            37  104             Cycle          M                   37.0000        247563     52.00
+C2FAGACXX            37  105             Cycle          M                   37.0000        246360     45.00
+C2FAGACXX            37  106             Cycle          M                   37.0000        245672     52.00
+C2FAGACXX            37  107             Cycle          M                   37.0000        245014     46.00
+C2FAGACXX            37  108             Cycle          M                   37.0000        244428     48.00
+C2FAGACXX            37  109             Cycle          M                   37.0000        243390     52.00
+C2FAGACXX            37  11              Cycle          M                   36.0000        270112     77.00
+C2FAGACXX            37  110             Cycle          M                   37.0000        242415     40.00
+C2FAGACXX            37  111             Cycle          M                   36.0000        232957     64.00
+C2FAGACXX            37  12              Cycle          M                   37.0000        270075     51.00
+C2FAGACXX            37  13              Cycle          M                   37.0000        269533     56.00
+C2FAGACXX            37  14              Cycle          M                   37.0000        269752     62.00
+C2FAGACXX            37  15              Cycle          M                   37.0000        269580     56.00
+C2FAGACXX            37  16              Cycle          M                   37.0000        269938     61.00
+C2FAGACXX            37  17              Cycle          M                   37.0000        269643     51.00
+C2FAGACXX            37  18              Cycle          M                   37.0000        269592     53.00
+C2FAGACXX            37  19              Cycle          M                   37.0000        269557     61.00
+C2FAGACXX            37  2               Cycle          M                   36.0000        269799     78.00
+C2FAGACXX            37  20              Cycle          M                   37.0000        269427     51.00
+C2FAGACXX            37  21              Cycle          M                   37.0000        269528     45.00
+C2FAGACXX            37  22              Cycle          M                   37.0000        269070     48.00
+C2FAGACXX            37  23              Cycle          M                   37.0000        269093     56.00
+C2FAGACXX            37  24              Cycle          M                   37.0000        268808     45.00
+C2FAGACXX            37  25              Cycle          M                   37.0000        268670     47.00
+C2FAGACXX            37  26              Cycle          M                   37.0000        268553     54.00
+C2FAGACXX            37  27              Cycle          M                   37.0000        268170     49.00
+C2FAGACXX            37  28              Cycle          M                   37.0000        268676     50.00
+C2FAGACXX            37  29              Cycle          M                   37.0000        268262     46.00
+C2FAGACXX            37  3               Cycle          M                   36.0000        270724     73.00
+C2FAGACXX            37  30              Cycle          M                   37.0000        267730     46.00
+C2FAGACXX            37  31              Cycle          M                   37.0000        267747     54.00
+C2FAGACXX            37  32              Cycle          M                   37.0000        268101     50.00
+C2FAGACXX            37  33              Cycle          M                   37.0000        267819     41.00
+C2FAGACXX            37  34              Cycle          M                   37.0000        267954     59.00
+C2FAGACXX            37  35              Cycle          M                   37.0000        267676     59.00
+C2FAGACXX            37  36              Cycle          M                   37.0000        267665     47.00
+C2FAGACXX            37  37              Cycle          M                   37.0000        267531     43.00
+C2FAGACXX            37  38              Cycle          M                   37.0000        267523     49.00
+C2FAGACXX            37  39              Cycle          M                   37.0000        267663     43.00
+C2FAGACXX            37  4               Cycle          M                   37.0000        270019     65.00
+C2FAGACXX            37  40              Cycle          M                   38.0000        267596     33.00
+C2FAGACXX            37  41              Cycle          M                   37.0000        267317     48.00
+C2FAGACXX            37  42              Cycle          M                   37.0000        267168     40.00
+C2FAGACXX            37  43              Cycle          M                   37.0000        266903     57.00
+C2FAGACXX            37  44              Cycle          M                   37.0000        267271     49.00
+C2FAGACXX            37  45              Cycle          M                   37.0000        266614     50.00
+C2FAGACXX            37  46              Cycle          M                   37.0000        267058     40.00
+C2FAGACXX            37  47              Cycle          M                   37.0000        266554     49.00
+C2FAGACXX            37  48              Cycle          M                   37.0000        266723     48.00
+C2FAGACXX            37  49              Cycle          M                   37.0000        266685     54.00
+C2FAGACXX            37  5               Cycle          M                   36.0000        270548     70.00
+C2FAGACXX            37  50              Cycle          M                   37.0000        266768     60.00
+C2FAGACXX            37  51              Cycle          M                   37.0000        265752     48.00
+C2FAGACXX            37  52              Cycle          M                   37.0000        266016     56.00
+C2FAGACXX            37  53              Cycle          M                   37.0000        266087     55.00
+C2FAGACXX            37  54              Cycle          M                   37.0000        265738     54.00
+C2FAGACXX            37  55              Cycle          M                   37.0000        265591     53.00
+C2FAGACXX            37  56              Cycle          M                   37.0000        265601     55.00
+C2FAGACXX            37  57              Cycle          M                   37.0000        265372     44.00
+C2FAGACXX            37  58              Cycle          M                   37.0000        265174     54.00
+C2FAGACXX            37  59              Cycle          M                   38.0000        264830     36.00
+C2FAGACXX            37  6               Cycle          M                   37.0000        270068     63.00
+C2FAGACXX            37  60              Cycle          M                   37.0000        264538     53.00
+C2FAGACXX            37  61              Cycle          M                   37.0000        264126     42.00
+C2FAGACXX            37  62              Cycle          M                   37.0000        264375     39.00
+C2FAGACXX            37  63              Cycle          M                   37.0000        264159     55.00
+C2FAGACXX            37  64              Cycle          M                   37.0000        264400     46.00
+C2FAGACXX            37  65              Cycle          M                   37.0000        263790     43.00
+C2FAGACXX            37  66              Cycle          M                   37.0000        263972     56.00
+C2FAGACXX            37  67              Cycle          M                   37.0000        263739     55.00
+C2FAGACXX            37  68              Cycle          M                   37.0000        263563     43.00
+C2FAGACXX            37  69              Cycle          M                   37.0000        263356     59.00
+C2FAGACXX            37  7               Cycle          M                   36.0000        270211     73.00
+C2FAGACXX            37  70              Cycle          M                   37.0000        263142     51.00
+C2FAGACXX            37  71              Cycle          M                   37.0000        262948     54.00
+C2FAGACXX            37  72              Cycle          M                   37.0000        262332     52.00
+C2FAGACXX            37  73              Cycle          M                   37.0000        261820     62.00
+C2FAGACXX            37  74              Cycle          M                   37.0000        261939     43.00
+C2FAGACXX            37  75              Cycle          M                   37.0000        261531     46.00
+C2FAGACXX            37  76              Cycle          M                   37.0000        261663     48.00
+C2FAGACXX            37  77              Cycle          M                   37.0000        260944     44.00
+C2FAGACXX            37  78              Cycle          M                   37.0000        259955     55.00
+C2FAGACXX            37  79              Cycle          M                   37.0000        259881     41.00
+C2FAGACXX            37  8               Cycle          M                   37.0000        270279     62.00
+C2FAGACXX            37  80              Cycle          M                   37.0000        259809     49.00
+C2FAGACXX            37  81              Cycle          M                   37.0000        259534     52.00
+C2FAGACXX            37  82              Cycle          M                   37.0000        259176     48.00
+C2FAGACXX            37  83              Cycle          M                   37.0000        258942     39.00
+C2FAGACXX            37  84              Cycle          M                   34.0000        258230    142.00
+C2FAGACXX            37  85              Cycle          M                   37.0000        258223     51.00
+C2FAGACXX            37  86              Cycle          M                   37.0000        257990     38.00
+C2FAGACXX            37  87              Cycle          M                   38.0000        257323     36.00
+C2FAGACXX            37  88              Cycle          M                   37.0000        256626     45.00
+C2FAGACXX            37  89              Cycle          M                   37.0000        256551     50.00
+C2FAGACXX            37  9               Cycle          M                   37.0000        270299     66.00
+C2FAGACXX            37  90              Cycle          M                   37.0000        255912     62.00
+C2FAGACXX            37  91              Cycle          M                   37.0000        255703     45.00
+C2FAGACXX            37  92              Cycle          M                   37.0000        254787     59.00
+C2FAGACXX            37  93              Cycle          M                   37.0000        254181     49.00
+C2FAGACXX            37  94              Cycle          M                   37.0000        253574     44.00
+C2FAGACXX            37  95              Cycle          M                   37.0000        253005     56.00
+C2FAGACXX            37  96              Cycle          M                   37.0000        252762     61.00
+C2FAGACXX            37  97              Cycle          M                   37.0000        252161     45.00
+C2FAGACXX            37  98              Cycle          M                   37.0000        251407     63.00
+C2FAGACXX            37  99              Cycle          M                   37.0000        250539     58.00
+C2FAGACXX            37  AA              Context        M                   37.0000       3825156    695.00
+C2FAGACXX            37  AC              Context        M                   39.0000       2909349    321.00
+C2FAGACXX            37  AG              Context        M                   40.0000       4190008    369.00
+C2FAGACXX            37  AT              Context        M                   34.0000       2902271   1088.00
+C2FAGACXX            37  CA              Context        M                   35.0000       4449084   1487.00
+C2FAGACXX            37  CC              Context        M                   38.0000       3996653    539.00
+C2FAGACXX            37  CG              Context        M                   33.0000       1155790    590.00
+C2FAGACXX            37  CT              Context        M                   38.0000       4298828    676.00
+C2FAGACXX            37  GA              Context        M                   35.0000       3621617   1121.00
+C2FAGACXX            37  GC              Context        M                   40.0000       3660159    290.00
+C2FAGACXX            37  GG              Context        M                   39.0000       3983499    421.00
+C2FAGACXX            37  GT              Context        M                   34.0000       2951930   1332.00
+C2FAGACXX            37  TA              Context        M                   33.0000       2263654   1280.00
+C2FAGACXX            37  TC              Context        M                   39.0000       3643586    390.00
+C2FAGACXX            37  TG              Context        M                   41.0000       4450683    251.00
+C2FAGACXX            37  TT              Context        M                   36.0000       4026493   1052.00
+

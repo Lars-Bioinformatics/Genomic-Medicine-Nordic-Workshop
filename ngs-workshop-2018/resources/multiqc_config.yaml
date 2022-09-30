@@ -1,0 +1,12 @@
+extra_fn_clean_exts:
+    - _R1
+    - _R2
+    - _qualimap
+    - _recalibrated
+    - _sorted
+
+table_columns_visible:
+    FastQC:
+        percent_duplicates: False
+        percent_gc: False
+        #total_sequences: False
